@@ -71,8 +71,6 @@ This project follows industry-standard **Data Engineering** practices, structuri
 
 ## Environment Setup
 # Clone the repository
-git clone [https://github.com/your-username/luxury-market-intelligence.git](https://github.com/your-username/luxury-market-intelligence.git)
-
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
@@ -86,11 +84,6 @@ python src/etl_pipeline.py
 python src/train_model.py
 # Generate Business KPIs for Tableau
 python src/generate_kpis.py
-
-📊 Business Impact
-* Automated Valuation: Replaces manual price checking with an instant AI benchmark.
-* Inventory Optimization: Identifies overpriced assets to avoid and undervalued assets to target.
-* Scalability: The pipeline handles new monthly data updates seamlessly.
 
 ## 💾 Data Access & Privacy
 
